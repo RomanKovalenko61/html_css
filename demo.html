@@ -11,7 +11,10 @@
     <form action="#" method="get">
         <div>
             <label for="search">Поиск видео на youtube</label>
-            <input type="text" placeholder="Search youtube" id="search" name="search_query" />
+            <input type="text" placeholder="Search youtube" id="search" name="search_query" title="Введите только цифры"
+                minlength="3" maxlength="20" pattern="/^\d+$/" />
+            <input type="email" name="email" id="" />
+            <input type="url" name="url" id="" />
         </div>
         <div>
             <label for="agree">Согласен с обработкой данных</label>
@@ -38,6 +41,18 @@
                     <option value="3" selected>Разработка</option>
                 </optgroup>
             </select>
+        </div>
+        <div>
+            <label for="volume">Громкость</label>
+            <input type="range" name="volume" id="volume" min="0" max="10" step="2" />
+        </div>
+        <div>
+            <label for="num">Оценка</label>
+            <input type="number" name="number" id="num" min="1" max="5" step="1" />
+        </div>
+        <div>
+            <label for="text">Комментарий</label>
+            <textarea name="text" id="text" rows="10" cols="100" placeholder="Введите текст"></textarea>
         </div>
         <button type="submit">Начать поиск</button>
     </form>
