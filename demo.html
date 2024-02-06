@@ -8,12 +8,38 @@
 </head>
 
 <body>
-    <form action="https://www.youtube.com/results" method="get">
+    <form action="#" method="get">
         <div>
             <label for="search">Поиск видео на youtube</label>
             <input type="text" placeholder="Search youtube" id="search" name="search_query" />
-            <button type="submit">Начать поиск</button>
         </div>
+        <div>
+            <label for="agree">Согласен с обработкой данных</label>
+            <input type="checkbox" name="agree" id="agree" checked>
+        </div>
+        <div>
+            <input type="radio" name="search" id="all" value="all">
+            <label for="all">Поиск повсюду</label>
+        </div>
+        <div>
+            <input type="radio" name="search" id="youtube" value="youtube">
+            <label for="youtube">Поиск на youtube</label>
+        </div>
+        <div>
+            <label for="topic">Тематика</label>
+            <select name="topic" id="topic">
+                <option value="1">Все</option>
+                <optgroup label="Популярные">
+                    <option value="2">Животные</option>
+                    <option value="3" selected>Разработка</option>
+                </optgroup>
+                <optgroup label="Популярные">
+                    <option value="2">Животные</option>
+                    <option value="3" selected>Разработка</option>
+                </optgroup>
+            </select>
+        </div>
+        <button type="submit">Начать поиск</button>
     </form>
 </body>
 
