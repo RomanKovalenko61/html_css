@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Учимся верстать формы">
+    <meta name="keywords" content="HTML">
+    <meta name="author" content="Роман Коваленко">
+    <title>Registration</title>
+</head>
+
+<body>
+    <main>
+        <form action="/">
+            <h1>Регистрация</h1>
+            <div>Уже есть аккаунт? <a href="#">Войти</a> </div>
+            <div>
+                <input type="text" id="company" name="company" placeholder="Мой компания" />
+            </div>
+            <div>
+                <input type="text" name="name" placeholder="Имя" required />
+                <input type="text" name="surname" placeholder="Фамилия" required />
+            </div>
+            <div>
+                <input type="email" name="email" placeholder="E-mail" required />
+            </div>
+            <button disabled>Зарегистрироваться</button>
+            <div>
+                <input type="checkbox" id="agreement" name="agreement" required />
+                <label for="agreement">Я прочитал и принимаю </label>
+                <a href="#" target="_blank">Условия использования</a>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
