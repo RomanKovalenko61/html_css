@@ -1,3 +1,7 @@
+*::selection {
+    background-color: blue;
+}
+
 h1,
 h2 {
     color: #050038;
@@ -33,6 +37,14 @@ header a {
     color: #FFF;
 }
 
+#heroButton:active {
+    background-color: #071766;
+}
+
+.heroForm input:focus {
+    background-color: aliceblue;
+}
+
 .link {
     color: rgba(66, 98, 255, 1);
     font-weight: 400;
@@ -40,9 +52,26 @@ header a {
     line-height: 24px;
 }
 
+.link:hover {
+    color: #2544e0;
+}
+
 .heroForm+p {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     color: #050038;
+}
+
+nav ul {
+    list-style: none;
+}
+
+.sectionList {
+    list-style-type: none;
+    /*list-style: url(../images/check.svg);*/
+}
+
+.sectionList li::marker {
+    content: url(../images/check.svg);
 }
