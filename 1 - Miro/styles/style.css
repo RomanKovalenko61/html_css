@@ -1,7 +1,3 @@
-*::selection {
-    background-color: blue;
-}
-
 h1,
 h2 {
     color: #050038;
@@ -37,8 +33,20 @@ header a {
     color: #FFF;
 }
 
+#heroButton:hover {
+    background-color: #122db6;
+}
+
+#heroButton.test.test2 {
+    background-color: #4262FF;
+}
+
 #heroButton:active {
     background-color: #071766;
+}
+
+body {
+    color: blueviolet;
 }
 
 .heroForm input:focus {
@@ -74,4 +82,12 @@ nav ul {
 
 .sectionList li::marker {
     content: url(../images/check.svg);
+}
+
+div.experimentBlue {
+    background: blue;
+}
+
+.experimentRed {
+    background: red;
 }
