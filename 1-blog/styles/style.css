@@ -1,0 +1,65 @@
+body {
+    background: #374151;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-family: "Roboto",
+        "Arial",
+        sans-serif;
+}
+
+header a {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 18.75px;
+    text-decoration: none;
+}
+
+header>div>a {
+    font-size: 18px;
+    line-height: 21.09px;
+}
+
+header form input[type="search"] {
+    background: #1F293799;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+
+.date {
+    font-size: 14px;
+    line-height: 16.41px;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.author {
+    line-height: 28px;
+}
+
+.author .name {
+    font-size: 16px;
+}
+
+.author .position {
+    font-size: 14px;
+}
+
+.heroText {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.articleText {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+footer .info {
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+}
