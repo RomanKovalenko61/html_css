@@ -1,23 +1,5 @@
-h1,
-h2 {
-    color: #050038;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 56px;
-}
-
-p {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-}
-
-.heroText {
-    color: #050038;
-}
-
-.sectionText {
-    color: #696688;
+body {
+    margin: 0;
 }
 
 header a {
@@ -28,25 +10,73 @@ header a {
     text-decoration: none;
 }
 
-#heroButton {
-    background-color: #4262FF;
-    color: #FFF;
+h1 {
+    margin-bottom: 0 0 17px 0;
 }
 
-#heroButton:hover {
-    background-color: #122db6;
+h2 {
+    margin: 0 0 19px 0;
 }
 
-#heroButton.test.test2 {
-    background-color: #4262FF;
+h1,
+h2 {
+    color: #050038;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
 }
 
-#heroButton:active {
-    background-color: #071766;
+nav {
+    padding: 33px 50px;
+    border-bottom: 1px solid #F0F0F0;
+    margin-bottom: 60px;
 }
 
-body {
-    color: blueviolet;
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+footer {
+    background: #050038;
+    padding: 47px 40px;
+    color: #FFFFFF;
+}
+
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.heroText {
+    color: #050038;
+    margin: 0 0 55px 0;
+}
+
+.sectionText {
+    color: #696688;
+    margin: 0 0 40px 0;
+}
+
+.heroForm input {
+    border-radius: 32px;
+    border: 1px solid #9B99AF;
+    height: 38px;
+    padding: 5px 10px;
+}
+
+.heroForm button {
+    height: 48px;
+    border: 1px solid #4262FF;
+    border-radius: 32px;
+    padding: 10px 20px;
 }
 
 .heroForm input:focus {
@@ -69,10 +99,7 @@ body {
     font-size: 14px;
     line-height: 20px;
     color: #050038;
-}
-
-nav ul {
-    list-style: none;
+    margin: 8px 0 52px 0;
 }
 
 .sectionList {
@@ -85,9 +112,28 @@ nav ul {
 }
 
 div.experimentBlue {
-    background: blue;
+    background: #071766;
+    width: 400px;
+    height: 400px;
+    color: white;
+    padding: 10px 20px 50px 30px;
+    border: 5px solid grey;
+    margin: 10px auto;
 }
 
-.experimentRed {
-    background: red;
+#heroButton {
+    background-color: #4262FF;
+    color: #FFF;
+}
+
+#heroButton:hover {
+    background-color: #122db6;
+}
+
+#heroButton.test.test2 {
+    background-color: #4262FF;
+}
+
+#heroButton:active {
+    background-color: #071766;
 }
