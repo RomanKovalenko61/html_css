@@ -5,6 +5,21 @@ body {
     font-family: "Roboto",
         "Arial",
         sans-serif;
+    margin: 0;
+    width: 1440px;
+    height: 1516px;
+}
+
+h1 {
+    margin: 0 0 30px 0;
+    padding: 0 457px 0 458px;
+    font-size: 24px;
+    line-height: 38px;
+}
+
+header {
+    padding: 80px 226px 0;
+    margin: 0 0 79px 0;
 }
 
 header a {
@@ -21,45 +36,84 @@ header>div>a {
 
 header form input[type="search"] {
     background: #1F293799;
+    border-radius: 100px;
+    height: 40px;
     font-size: 16px;
     line-height: 18.75px;
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer .info {
+    margin: 0 0 77px 0;
+    padding: 0 606px 0 608px;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
 }
 
 .date {
+    height: 16px;
+    width: 180px;
+    margin: 0 0 14px 0;
+    padding: 0 630px;
     font-size: 14px;
     line-height: 16.41px;
 }
 
-h1 {
-    font-size: 24px;
-    line-height: 38px;
-    text-align: center;
+.author {
+    margin: 0 0 28px 0;
+    line-height: 28px;
 }
 
-.author {
-    line-height: 28px;
+.author img {
+    border-radius: 50%;
+    padding-left: 640px;
 }
 
 .author .name {
     font-size: 16px;
+    padding-left: 706px;
 }
 
 .author .position {
     font-size: 14px;
+    padding-left: 706px;
+}
+
+.heroImage {
+    margin: 0 0 69px 0;
+    padding-left: 272px;
+    border-radius: 5px;
 }
 
 .heroText {
+    height: 101px;
+    width: 708px;
+    margin: 0 0 185px 0;
+    padding: 0 365px 0 367px;
     font-size: 20px;
     line-height: 32px;
 }
 
-.articleText {
-    font-size: 16px;
-    line-height: 30px;
+.heroText p {
+    margin: 0;
 }
 
-footer .info {
+.articleText {
+    height: 281px;
+    width: 708px;
     font-size: 16px;
-    line-height: 28px;
-    text-align: center;
+    line-height: 30px;
+    margin: 0 0 103px 0;
+    padding: 0 366px;
+}
+
+.articleText p {
+    margin: 0 0 30px 0;
 }
