@@ -1,9 +1,21 @@
-main {
-    background-color: #FFFEFE;
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F39494;
     font-family: 'Open Sans', sans-serif;
 }
 
+form {
+    margin: 225px auto 226px;
+    width: 582px;
+    height: 573px;
+    background: #FFFEFE;
+    border-radius: 10px;
+}
+
 h1 {
+    margin: 0 auto;
+    padding-top: 72px;
     color: #333333;
     font-weight: 700;
     font-size: 36px;
@@ -15,33 +27,22 @@ a {
     color: #089FE0;
 }
 
-.account {
+h1+p {
+    margin: 0 auto 47px;
     color: #666666;
     font-weight: 400;
     font-size: 18px;
     line-height: 24.51px;
-}
-
-.company>input {
-    background-color: #FFFFFF;
-    color: #333333;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 21.79px;
-}
-
-.fullname>input,
-.email>input {
-    background-color: #F5F5F5;
-    color: #999999;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 16px;
-    line-height: 21.79px;
+    text-align: center;
 }
 
 button {
+    margin: 0 auto 22px;
+    display: block;
+    width: 394px;
+    height: 44px;
     background-color: #089FE0;
+    border-radius: 5px;
     color: #FFFFFF;
     font-weight: 400;
     font-size: 18px;
@@ -49,9 +50,55 @@ button {
     text-align: center;
 }
 
-.info {
+button+p {
+    margin: 0 118px 91px 93px;
     color: #666666;
     font-weight: 400;
     font-size: 14px;
     line-height: 19.07px;
+}
+
+.company {
+    margin: 0 auto 22px;
+    width: 394px;
+    height: 44px;
+    box-sizing: border-box;
+    border: 1px solid #F5F5F5;
+    border-radius: 5px;
+}
+
+.company>input {
+    margin: 9px 150px 9px 11px;
+    width: 233px;
+    height: 26px;
+    background-color: #FFFFFF;
+    border-style: none;
+    color: #333333;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21.79px;
+}
+
+.fullname,
+.email {
+    margin: 0 auto 22px;
+    width: 394px;
+    height: 44px;
+    background-color: #F5F5F5;
+    border-radius: 5px;
+}
+
+.fullname>input,
+.email>input {
+    background-color: #F5F5F5;
+    border-style: none;
+    color: #999999;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 21.79px;
+}
+
+.email>input {
+    margin: 9px 232px 9px 11px;
 }
