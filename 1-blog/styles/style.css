@@ -6,114 +6,102 @@ body {
         "Arial",
         sans-serif;
     margin: 0;
-    width: 1440px;
-    height: 1516px;
+    padding: 0;
 }
 
-h1 {
-    margin: 0 0 30px 0;
-    padding: 0 457px 0 458px;
-    font-size: 24px;
-    line-height: 38px;
-}
-
-header {
-    padding: 80px 226px 0;
-    margin: 0 0 79px 0;
+header p {
+    padding-top: 72px;
+    margin: 0 0 0 180px;
 }
 
 header a {
     color: #FFFFFF;
-    font-size: 16px;
-    line-height: 18.75px;
     text-decoration: none;
 }
 
-header>div>a {
+header p a {
     font-size: 18px;
-    line-height: 21.09px;
+    line-height: 21px;
+}
+
+header nav ul {
+    margin: 0;
+    margin-left: 180px;
+    margin-bottom: 80px;
+    padding: 0;
+    list-style: none;
+}
+
+header nav a {
+    font-size: 16px;
+    line-height: 19px;
 }
 
 header form input[type="search"] {
     background: #1F293799;
     border-radius: 100px;
     height: 40px;
+    width: 224px;
     font-size: 16px;
     line-height: 18.75px;
 
 }
 
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+article>p {
+    margin: 0 auto 14px;
+    width: 180px;
+    font-size: 14px;
+    line-height: 16px;
 }
 
-footer .info {
-    margin: 0 0 77px 0;
-    padding: 0 606px 0 608px;
-    font-size: 16px;
-    line-height: 28px;
+h1 {
+    margin: 0 auto 30px;
+    width: 525px;
+    font-size: 24px;
+    line-height: 38px;
     text-align: center;
 }
 
-.date {
-    height: 16px;
-    width: 180px;
-    margin: 0 0 14px 0;
-    padding: 0 630px;
-    font-size: 14px;
-    line-height: 16.41px;
-}
-
 .author {
-    margin: 0 0 28px 0;
+    margin: 0 auto 28px;
+    width: 214px;
     line-height: 28px;
-}
-
-.author img {
-    border-radius: 50%;
-    padding-left: 640px;
 }
 
 .author .name {
     font-size: 16px;
-    padding-left: 706px;
 }
 
 .author .position {
     font-size: 14px;
-    padding-left: 706px;
 }
 
 .heroImage {
-    margin: 0 0 69px 0;
-    padding-left: 272px;
+    display: block;
+    margin: 0 auto 69px;
+    height: 594px;
+    width: 896px;
     border-radius: 5px;
 }
 
 .heroText {
-    height: 101px;
+    margin: 0 auto 103px;
     width: 708px;
-    margin: 0 0 185px 0;
-    padding: 0 365px 0 367px;
+}
+
+.heroText p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.heroText p:first-child {
     font-size: 20px;
     line-height: 32px;
 }
 
-.heroText p {
-    margin: 0;
-}
-
-.articleText {
-    height: 281px;
-    width: 708px;
+footer p {
+    margin: 0 auto 77px;
     font-size: 16px;
-    line-height: 30px;
-    margin: 0 0 103px 0;
-    padding: 0 366px;
-}
-
-.articleText p {
-    margin: 0 0 30px 0;
+    line-height: 28px;
+    text-align: center;
 }
