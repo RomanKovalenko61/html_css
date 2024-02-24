@@ -67,29 +67,20 @@ button+p {
     border-radius: 5px;
 }
 
-.company>input {
-    margin: 9px 150px 9px 11px;
-    width: 233px;
-    height: 26px;
-    background-color: #FFFFFF;
-    border-style: none;
-    color: #333333;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 21.79px;
-}
-
 .fullname,
 .email {
     margin: 0 auto 22px;
     width: 394px;
     height: 44px;
-    background-color: #F5F5F5;
+    box-sizing: border-box;
     border-radius: 5px;
 }
 
-.fullname>input,
-.email>input {
+div>input {
+    display: inline-block;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
     background-color: #F5F5F5;
     border-style: none;
     color: #999999;
@@ -97,8 +88,31 @@ button+p {
     font-style: italic;
     font-size: 16px;
     line-height: 21.79px;
+    padding-left: 11px;
+    padding-top: 9px;
+}
+
+.company>input {
+    background-color: #FFFFFF;
+    color: #333333;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .email>input {
-    margin: 9px 232px 9px 11px;
+    border-radius: 5px;
+}
+
+.fullname .left {
+    width: 50%;
+    float: left;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.fullname .right {
+    width: 50%;
+    float: right;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
