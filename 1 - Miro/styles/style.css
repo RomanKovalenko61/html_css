@@ -12,6 +12,7 @@ header a {
 
 h1 {
     margin-bottom: 0 0 17px 0;
+    text-align: end;
 }
 
 h2 {
@@ -63,6 +64,10 @@ footer a {
 .sectionText {
     color: #696688;
     margin: 0 0 40px 0;
+}
+
+#heroImage {
+    float: right;
 }
 
 .heroForm input {
@@ -136,4 +141,63 @@ div.experimentBlue {
 
 #heroButton:active {
     background-color: #071766;
+}
+
+.cl1 {
+    background: red;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.cl2 {
+    background: blue;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.cl3 {
+    background: green;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.static .cl2 {
+    position: static;
+}
+
+.relative .cl2 {
+    position: relative;
+    top: 50px;
+    left: -50px;
+}
+
+.absolute {
+    position: relative;
+}
+
+.absolute .cl2 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.fixed .cl2 {
+    /* position: fixed; */
+    left: 50px;
+    top: 50px;
+}
+
+.sticky .cl2 {
+    position: sticky;
+    top: 50px;
+    left: 50px;
 }
