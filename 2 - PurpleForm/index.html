@@ -17,23 +17,26 @@
     <main>
         <h1>Свяжитесь со мной</h1>
         <form action="/form" method="get">
-            <div>
-                <label for="email">E-mail*</label> <br />
+            <div class="field">
+                <img src="./images/message.svg" alt="иконка сообщения">
+                <label for="email">E-mail*</label>
                 <input type="email" id="email" name="email" placeholder="Введите email" required />
             </div>
-            <div>
-                <label for="telegram">Telegram*</label> <br />
+            <div class="field">
+                <img src="./images/telegram.svg" alt="иконка сообщения">
+                <label for="telegram">Telegram*</label>
                 <input type="text" id="telegram" name="telegram" placeholder="Введите telegram" />
             </div>
-            <div>
-                <label for="topic">Тема*</label> <br />
+            <div class="field">
+                <img src="./images/topic.svg" alt="иконка сообщения">
+                <label for="topic">Тема*</label>
                 <select name="topic" id="topic" required>
                     <option value="courses">Приобретение курсов</option>
                     <option value="feedback">Обратная связь</option>
                 </select>
             </div>
-            <div>
-                <label for="comment">Комментарий</label> <br />
+            <div class="field">
+                <label for="comment">Комментарий</label>
                 <textarea id="comment" name="comment" rows="10" cols="30">Хочу купить ваши курсы для своих сотрудников и они станут очень умными. Направьте, пожалуйста, свои реквизиты для
             выставления счета. Хочу купить ваши курсы для своих сотрудников и они станут очень умными. Направьте, пожалуйста, свои
             реквизиты для выставления счета.</textarea>
