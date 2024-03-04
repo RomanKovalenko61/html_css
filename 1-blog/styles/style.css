@@ -1,0 +1,130 @@
+body {
+    background: #374151;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-family: "Roboto",
+        "Arial",
+        sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 60px 180px 69px;
+}
+
+header a {
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+header .icon-before-link::before {
+    content: "В";
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: #4B5563;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    padding: 6px 12px;
+    margin-right: 11px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav a {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+header form {
+    background-image: url('../images/search.png');
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+    background-position: 18px center;
+    width: 224px;
+    margin-left: auto;
+}
+
+header form input[type="search"] {
+    background: #1F293799;
+    border-radius: 100px;
+    padding: 11px 12px 11px 49px;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+
+header form input[type="search"]::placeholder {
+    color: #FFFFFF;
+}
+
+article>p {
+    margin: 0 auto 14px;
+    width: 180px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+h1 {
+    margin: 0 auto 30px;
+    width: 525px;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.author {
+    margin: 0 auto 28px;
+    width: 214px;
+    line-height: 28px;
+}
+
+.author .name {
+    font-size: 16px;
+}
+
+.author .position {
+    font-size: 14px;
+}
+
+.heroImage {
+    display: block;
+    margin: 0 auto 69px;
+    height: 594px;
+    width: 896px;
+    border-radius: 5px;
+}
+
+.heroText {
+    margin: 0 auto 103px;
+    width: 708px;
+}
+
+.heroText p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.heroText p:first-child {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+footer p {
+    margin: 0 auto 77px;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+}
