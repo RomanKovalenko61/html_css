@@ -15,27 +15,29 @@
     <main>
         <form action="/">
             <div class="container">
-                <div class="item">
+                <div class="header">
                     <h1>Регистрация</h1>
                 </div>
-                <div class="item">
-                    <p>Уже есть аккаунт? <a href="#">Войти</a> </p>
+                <div class="underHeader">
+                    Уже есть аккаунт? <a href="#">Войти</a>
                 </div>
-                <div class="item company">
-                    <input type="text" id="company" name="company" placeholder="Мой компания" />
-                </div>
-                <div class="item fullname">
-                    <input class="left" type="text" name="name" placeholder="Имя" required />
-                    <input class="right" type="text" name="surname" placeholder="Фамилия" required />
-                </div>
-                <div class="item email">
-                    <input type="email" name="email" placeholder="E-mail" required />
-                </div>
-                <div class="item"><button disabled>Зарегистрироваться</button></div>
-                <div class="item">
-                    <input type="checkbox" id="agreement" name="agreement" required />
-                    <label for="agreement">Я прочитал и принимаю </label>
-                    <a href="#" target="_blank">Условия использования</a>
+                <div class="container-with-gap">
+                    <div class="company">
+                        <input type="text" id="company" name="company" placeholder="Мой компания" />
+                    </div>
+                    <div class="fullname">
+                        <input class="left" type="text" name="name" placeholder="Имя" required />
+                        <input class="right" type="text" name="surname" placeholder="Фамилия" required />
+                    </div>
+                    <div class="email">
+                        <input type="email" name="email" placeholder="E-mail" required />
+                    </div>
+                    <button disabled>Зарегистрироваться</button>
+                    <div class="underButton">
+                        <input type="checkbox" id="agreement" name="agreement" required />
+                        <label for="agreement">Я прочитал и принимаю </label>
+                        <a href="#" target="_blank">Условия использования</a>
+                    </div>
                 </div>
             </div>
         </form>
