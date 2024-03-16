@@ -1,16 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background: #374151;
+    background: linear-gradient(180.00deg, rgb(55, 65, 81), rgb(17, 24, 39) 100%);
     color: #FFFFFF;
     font-weight: 400;
     font-family: "Roboto",
         "Arial",
         sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
 header {
     padding: 60px 180px 69px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation {
+    flex: 5;
+    padding: 9px 77px;
 }
 
 header a {
@@ -23,12 +34,12 @@ header a {
 }
 
 header .icon-before-link::before {
+    box-sizing: border-box;
     content: "В";
     display: inline-block;
     width: 35px;
     height: 35px;
     background-color: #4B5563;
-    box-sizing: border-box;
     border-radius: 3px;
     font-size: 18px;
     font-weight: 600;
@@ -38,9 +49,9 @@ header .icon-before-link::before {
 }
 
 nav ul {
-    margin: 0;
-    padding: 0;
     list-style: none;
+    display: flex;
+    gap: 52px;
 }
 
 nav a {
@@ -53,8 +64,6 @@ header form {
     background-size: 14px 14px;
     background-repeat: no-repeat;
     background-position: 18px center;
-    width: 224px;
-    margin-left: auto;
 }
 
 header form input[type="search"] {
@@ -63,7 +72,6 @@ header form input[type="search"] {
     padding: 11px 12px 11px 49px;
     color: #FFFFFF;
     font-size: 16px;
-    line-height: 18.75px;
 }
 
 header form input[type="search"]::placeholder {
@@ -88,7 +96,9 @@ h1 {
 .author {
     margin: 0 auto 28px;
     width: 214px;
-    line-height: 28px;
+    line-height: 24px;
+    display: flex;
+    gap: 16px;
 }
 
 .author .name {
