@@ -52,7 +52,6 @@
 .courses__wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 360px);
     gap: 74px 70px;
 }
 
