@@ -8,20 +8,16 @@ body {
     background: linear-gradient(180.00deg, rgb(55, 65, 81), rgb(17, 24, 39) 100%);
     color: #FFFFFF;
     font-weight: 400;
-    font-family: "Roboto",
-        "Arial",
-        sans-serif;
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 
 header {
     padding: 60px 180px 69px;
     display: flex;
-    justify-content: space-between;
-}
-
-.navigation {
-    flex: 5;
-    padding: 9px 77px;
+    align-items: center;
 }
 
 header a {
@@ -33,25 +29,29 @@ header a {
     line-height: 21px;
 }
 
-header .icon-before-link::before {
-    box-sizing: border-box;
-    content: "В";
-    display: inline-block;
+.my-blog {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-right: 77px;
+}
+
+.my-blog__icon {
     width: 35px;
     height: 35px;
     background-color: #4B5563;
+    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.15);
     border-radius: 3px;
     font-size: 18px;
     font-weight: 600;
     line-height: 23px;
     padding: 6px 12px;
-    margin-right: 11px;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    gap: 52px;
+    gap: 39px;
 }
 
 nav a {
@@ -59,30 +59,51 @@ nav a {
     line-height: 19px;
 }
 
-header form {
+li:nth-child(1) {
+    margin-right: 13px;
+}
+
+form {
     background-image: url('../images/search.png');
     background-size: 14px 14px;
     background-repeat: no-repeat;
     background-position: 18px center;
+    margin-left: auto;
 }
 
-header form input[type="search"] {
-    background: #1F293799;
+input[type="search"] {
+    border: none;
     border-radius: 100px;
+    background: rgba(31, 41, 55, 0.6);
     padding: 11px 12px 11px 49px;
-    color: #FFFFFF;
     font-size: 16px;
+    width: 224px;
+    height: 40px;
 }
 
-header form input[type="search"]::placeholder {
+input[type="search"]::placeholder {
     color: #FFFFFF;
+    opacity: 0.6;
+    font-size: 16px;
+    line-height: 19px;
 }
 
-article>p {
+.date {
     margin: 0 auto 14px;
     width: 180px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
     font-size: 14px;
     line-height: 16px;
+    opacity: 0.6;
+}
+
+.date__dot {
+    width: 4px;
+    height: 4px;
+    border-radius: 100px;
+    background: #FFFFFF;
 }
 
 h1 {
@@ -96,17 +117,26 @@ h1 {
 .author {
     margin: 0 auto 28px;
     width: 214px;
+    min-height: 53px;
     line-height: 24px;
     display: flex;
     gap: 16px;
 }
 
-.author .name {
-    font-size: 16px;
+.author img {
+    align-self: flex-start;
 }
 
-.author .position {
+.author__name {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.author__position {
     font-size: 14px;
+    line-height: 28px;
+    opacity: 0.6;
+    margin-top: -3px;
 }
 
 .heroImage {
@@ -122,9 +152,14 @@ h1 {
     width: 708px;
 }
 
+.heroText a {
+    color: #FFFFFF;
+}
+
 .heroText p {
     font-size: 16px;
     line-height: 30px;
+    padding: 1em 0;
 }
 
 .heroText p:first-child {
@@ -136,5 +171,6 @@ footer p {
     margin: 0 auto 77px;
     font-size: 16px;
     line-height: 28px;
+    opacity: 0.6;
     text-align: center;
 }
