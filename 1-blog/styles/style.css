@@ -17,11 +17,10 @@ body {
 header {
     padding: 60px 180px 69px;
     display: flex;
-    align-items: center;
+    justify-content: space-between;
 }
 
 header a {
-    display: inline-block;
     color: #FFFFFF;
     text-decoration: none;
     font-size: 18px;
@@ -29,11 +28,16 @@ header a {
     line-height: 21px;
 }
 
+.test {
+    display: inline-flex;
+    align-items: center;
+    gap: 77px;
+}
+
 .my-blog {
     display: flex;
     gap: 12px;
     align-items: center;
-    margin-right: 77px;
 }
 
 .my-blog__icon {
@@ -69,6 +73,7 @@ form {
     background-repeat: no-repeat;
     background-position: 18px center;
     margin-left: auto;
+    display: inline-block;
 }
 
 input[type="search"] {
