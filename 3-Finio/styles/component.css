@@ -1,0 +1,124 @@
+.tarrifs-container {
+    margin: 0 auto;
+    width: 1156px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 24px;
+    justify-content: center;
+    align-items: center;
+    grid-template-areas:
+        "header header header"
+        "about about about"
+        "card-1 card-2 card-3";
+}
+
+.tarrifs__header {
+    grid-area: header;
+    color: rgb(0, 0, 0);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.tarrifs__about {
+    grid-area: about;
+    color: rgba(78, 93, 124, 0.5);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 140%;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.card {
+    min-height: 507px;
+    border-radius: 8px;
+    padding: 48px 40px;
+}
+
+.tarrifs__card {
+    grid-area: card-1;
+    box-shadow: 0px 0px 32px 0px rgba(78, 93, 124, 0.16);
+    background: rgb(255, 255, 255);
+}
+
+.tarrifs__card__discount {
+    grid-area: card-2;
+    box-shadow: 0px 0px 32px 0px rgba(78, 93, 124, 0.16);
+    background: rgb(255, 255, 255);
+}
+
+.tarrifs__card__special {
+    grid-area: card-3;
+    box-shadow: 0px 0px 32px 0px rgba(78, 93, 124, 0.32);
+    background: rgb(53, 126, 254);
+    padding: 48px 40px;
+}
+
+.card-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+
+.card-content__benefit {
+    width: 127px;
+    padding: 4px 16px;
+    border-radius: 8px;
+    background: rgb(26, 188, 156);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 140%;
+}
+
+.card-content__duration {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 120%;
+}
+
+.card-content__description {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 140%;
+    margin-bottom: 16px;
+}
+
+.card-content__free-period {
+    min-height: 48px;
+    border-radius: 47px;
+    padding: 12px 63px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 140%;
+}
+
+.card-content__price-block {
+    display: grid;
+    grid-template-columns: 1fr 107px;
+    gap: 8px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 120%;
+    margin-bottom: 18px;
+}
+
+.card-content__line {
+    grid-column: span 2;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.16);
+}
+
+.golden-block {
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: rgb(255, 199, 54);
+}
