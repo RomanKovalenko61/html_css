@@ -1,20 +1,29 @@
-body {
-    background: #374151;
-    color: #FFFFFF;
-    font-weight: 400;
-    font-family: "Roboto",
-        "Arial",
-        sans-serif;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(180.00deg, rgb(55, 65, 81), rgb(17, 24, 39) 100%);
+    color: #FFFFFF;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 header {
     padding: 60px 180px 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header a {
-    display: inline-block;
     color: #FFFFFF;
     text-decoration: none;
     font-size: 18px;
@@ -22,25 +31,34 @@ header a {
     line-height: 21px;
 }
 
-header .icon-before-link::before {
-    content: "В";
-    display: inline-block;
+.test {
+    display: inline-flex;
+    align-items: center;
+    gap: 77px;
+}
+
+.my-blog {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.my-blog__icon {
     width: 35px;
     height: 35px;
     background-color: #4B5563;
-    box-sizing: border-box;
+    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.15);
     border-radius: 3px;
     font-size: 18px;
     font-weight: 600;
     line-height: 23px;
     padding: 6px 12px;
-    margin-right: 11px;
 }
 
 nav ul {
-    margin: 0;
-    padding: 0;
     list-style: none;
+    display: flex;
+    gap: 39px;
 }
 
 nav a {
@@ -48,33 +66,46 @@ nav a {
     line-height: 19px;
 }
 
-header form {
+li:nth-child(1) {
+    margin-right: 13px;
+}
+
+input[type="search"] {
+    border: none;
+    border-radius: 100px;
+    background-color: rgba(31, 41, 55, 0.6);
     background-image: url('../images/search.png');
     background-size: 14px 14px;
     background-repeat: no-repeat;
     background-position: 18px center;
-    width: 224px;
-    margin-left: auto;
-}
-
-header form input[type="search"] {
-    background: #1F293799;
-    border-radius: 100px;
     padding: 11px 12px 11px 49px;
-    color: #FFFFFF;
     font-size: 16px;
-    line-height: 18.75px;
+    width: 224px;
 }
 
-header form input[type="search"]::placeholder {
+input[type="search"]::placeholder {
     color: #FFFFFF;
+    opacity: 0.6;
+    font-size: 16px;
+    line-height: 19px;
 }
 
-article>p {
+.date {
     margin: 0 auto 14px;
     width: 180px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
     font-size: 14px;
     line-height: 16px;
+    opacity: 0.6;
+}
+
+.date__dot {
+    width: 4px;
+    height: 4px;
+    border-radius: 100px;
+    background: #FFFFFF;
 }
 
 h1 {
@@ -88,15 +119,26 @@ h1 {
 .author {
     margin: 0 auto 28px;
     width: 214px;
+    min-height: 53px;
+    line-height: 24px;
+    display: flex;
+    gap: 16px;
+}
+
+.author img {
+    align-self: flex-start;
+}
+
+.author__name {
+    font-size: 16px;
     line-height: 28px;
 }
 
-.author .name {
-    font-size: 16px;
-}
-
-.author .position {
+.author__position {
     font-size: 14px;
+    line-height: 28px;
+    opacity: 0.6;
+    margin-top: -3px;
 }
 
 .heroImage {
@@ -112,9 +154,14 @@ h1 {
     width: 708px;
 }
 
+.heroText a {
+    color: #FFFFFF;
+}
+
 .heroText p {
     font-size: 16px;
     line-height: 30px;
+    padding: 1em 0;
 }
 
 .heroText p:first-child {
@@ -126,5 +173,6 @@ footer p {
     margin: 0 auto 77px;
     font-size: 16px;
     line-height: 28px;
+    opacity: 0.6;
     text-align: center;
 }
