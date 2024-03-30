@@ -1,3 +1,23 @@
+:root {
+    --color-text-black: rgb(0, 0, 0);
+    --color-text-dark-opacity: rgba(78, 93, 124, 0.5);
+    --color-text-dark: rgb(78, 93, 124);
+    --color-text-white: rgb(255, 255, 255);
+    --color-text-white-opacity: rgba(255, 255, 255, 0.6);
+    --color-text-blue: rgb(53, 126, 254);
+
+    --color-card-shadow-16: rgba(78, 93, 124, 0.16);
+    --color-card-shadow-32: rgba(78, 93, 124, 0.32);
+
+    --bg-block-white: rgb(255, 255, 255);
+    --bg-block-blue: rgb(53, 126, 254);
+
+    --bg-color-benefit: rgb(26, 188, 156);
+
+    --color-separate-line-light: rgba(255, 255, 255, 0.16);
+    --color-separate-line-dark: rgba(78, 93, 124, 0.08);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
