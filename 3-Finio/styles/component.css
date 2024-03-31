@@ -427,6 +427,27 @@
     margin-bottom: 64px;
 }
 
+.economy__slider {
+    width: 1156px;
+    height: 640px;
+    position: relative;
+    margin-bottom: 64px;
+}
+
+.economy__slider img {
+    position: absolute;
+}
+
+.economy__slider-excel {
+    z-index: 1;
+}
+
+.economy__slider-divisor {
+    z-index: 2;
+    left: 598px;
+    transform: translateX(-50%);
+}
+
 .economy__columns {
     display: flex;
     justify-content: center;
@@ -543,6 +564,9 @@
 .mobile {
     margin: 0 auto;
     max-width: var(--width-layout);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 120px;
 }
 
