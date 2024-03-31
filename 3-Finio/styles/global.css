@@ -16,6 +16,9 @@
 
     --color-separate-line-light: rgba(255, 255, 255, 0.16);
     --color-separate-line-dark: rgba(78, 93, 124, 0.08);
+
+    --width-layout: 1392px;
+    --width-content: 1156px;
 }
 
 * {

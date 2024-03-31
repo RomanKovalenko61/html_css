@@ -1,3 +1,7 @@
 .section__wrapper {
     margin: 0 auto;
 }
+
+.bg_blue {
+    background-color: var(--bg-block-blue);
+}
