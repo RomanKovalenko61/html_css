@@ -10,6 +10,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 98px;
+    position: relative;
 }
 
 .header__logo {
@@ -37,6 +38,7 @@ header {
     margin: 0 auto;
     max-width: var(--width-layout);
     display: flex;
+    position: relative;
 }
 
 .hero__left {
@@ -44,6 +46,8 @@ header {
     flex-direction: column;
     gap: 40px;
     padding-top: 17px;
+    min-height: 627px;
+    width: 515px;
 }
 
 .hero__header {
@@ -51,4 +55,18 @@ header {
     font-size: 40px;
     font-weight: 800;
     line-height: 120%;
+}
+
+.hero__markets-img,
+.hero__button {
+    width: 345px;
+}
+
+.hero__button {
+    margin-bottom: var(--margin-bottom-40);
+}
+
+.hero-img {
+    position: absolute;
+    margin-left: 456px;
 }
