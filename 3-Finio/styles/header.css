@@ -4,6 +4,7 @@ header {
 
 .header {
     margin: 0 auto;
+    padding-top: 40px;
     max-width: var(--width-layout);
     display: flex;
     justify-content: space-between;
@@ -12,13 +13,9 @@ header {
 }
 
 .header__logo {
-    color: rgb(255, 255, 255);
-    font-family: Inter;
+    color: var(--color-text-white);
     font-size: 36px;
     font-weight: 900;
-    line-height: 140%;
-    letter-spacing: 0%;
-    text-align: left;
     text-transform: uppercase;
 }
 
@@ -32,13 +29,8 @@ header {
     display: flex;
     gap: 32px;
     align-items: center;
-    color: rgba(255, 255, 255, 0.8);
-    font-family: Inter;
+    color: var(--color-text-white-opacity);
     font-size: 18px;
-    font-weight: 500;
-    line-height: 140%;
-    letter-spacing: 0%;
-    text-align: left;
 }
 
 .hero {
@@ -55,11 +47,8 @@ header {
 }
 
 .hero__header {
-    color: rgb(255, 255, 255);
-    font-family: Inter;
+    color: var(--color-text-white);
     font-size: 40px;
     font-weight: 800;
     line-height: 120%;
-    letter-spacing: 0%;
-    text-align: left;
 }

@@ -13,12 +13,28 @@
     --bg-block-blue: rgb(53, 126, 254);
 
     --bg-color-benefit: rgb(26, 188, 156);
+    --bg-golden-block: rgb(255, 199, 54);
 
     --color-separate-line-light: rgba(255, 255, 255, 0.16);
     --color-separate-line-dark: rgba(78, 93, 124, 0.08);
 
     --width-layout: 1392px;
     --width-content: 1156px;
+
+    --margin-bottom-4: 4px;
+    --margin-bottom-8: 8px;
+    --margin-bottom-16: 16px;
+    --margin-bottom-18: 18px;
+    --margin-bottom-24: 24px;
+    --margin-bottom-40: 40px;
+    --margin-bottom-45: 45px;
+    --margin-bottom-49: 49px;
+    --margin-bottom-64: 64px;
+    --margin-bottom-80: 80px;
+    --margin-bottom-120: 120px;
+
+    --margin-top-8: 8px;
+    --margin-top-16: 16px;
 }
 
 * {
@@ -38,4 +54,7 @@ body {
     font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings: "slnt" 0;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
 }
