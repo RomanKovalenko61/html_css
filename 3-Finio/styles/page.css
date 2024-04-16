@@ -2,6 +2,6 @@
     margin: 0 auto;
 }
 
-.bg_blue {
+header {
     background-color: var(--bg-block-blue);
 }

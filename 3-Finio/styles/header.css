@@ -1,7 +1,3 @@
-header {
-    margin-bottom: 80px;
-}
-
 .header {
     margin: 0 auto;
     padding-top: 40px;
@@ -10,7 +6,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 98px;
-    position: relative;
+    margin-bottom: 80px;
 }
 
 .header__logo {
@@ -30,8 +26,17 @@ header {
     display: flex;
     gap: 32px;
     align-items: center;
+}
+
+.header__menu a {
+    text-decoration: none;
     color: var(--color-text-white-opacity);
     font-size: 18px;
+    cursor: pointer;
+}
+
+.header__menu a:hover {
+    color: var(--color-text-white);
 }
 
 .hero {
