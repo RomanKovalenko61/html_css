@@ -1,77 +1,81 @@
+header {
+  background-color: var(--bg-block-blue);
+}
+
 .header {
-    margin: 0 auto;
-    padding-top: 40px;
-    max-width: var(--width-layout);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 98px;
-    margin-bottom: 80px;
+  margin: 0 auto;
+  padding-top: 40px;
+  max-width: var(--width-layout);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 98px;
+  margin-bottom: 80px;
 }
 
 .header__logo {
-    color: var(--color-text-white);
-    font-size: 36px;
-    font-weight: 900;
-    text-transform: uppercase;
+  color: var(--color-text-white);
+  font-size: 36px;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 .menu-wrapper {
-    display: flex;
-    align-items: center;
-    gap: 281px;
+  display: flex;
+  align-items: center;
+  gap: 281px;
 }
 
 .header__menu {
-    display: flex;
-    gap: 32px;
-    align-items: center;
+  display: flex;
+  gap: 32px;
+  align-items: center;
 }
 
 .header__menu a {
-    text-decoration: none;
-    color: var(--color-text-white-opacity);
-    font-size: 18px;
-    cursor: pointer;
+  text-decoration: none;
+  color: var(--color-text-white-opacity);
+  font-size: 18px;
+  cursor: pointer;
 }
 
 .header__menu a:hover {
-    color: var(--color-text-white);
+  color: var(--color-text-white);
 }
 
 .hero {
-    margin: 0 auto;
-    max-width: var(--width-layout);
-    display: flex;
-    position: relative;
+  margin: 0 auto;
+  max-width: var(--width-layout);
+  display: flex;
+  position: relative;
 }
 
 .hero__left {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    padding-top: 17px;
-    min-height: 627px;
-    width: 515px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-top: 17px;
+  min-height: 627px;
+  width: 515px;
 }
 
 .hero__header {
-    color: var(--color-text-white);
-    font-size: 40px;
-    font-weight: 800;
-    line-height: 120%;
+  color: var(--color-text-white);
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 120%;
 }
 
 .hero__markets-img,
 .hero__button {
-    width: 345px;
+  width: 345px;
 }
 
 .hero__button {
-    margin-bottom: var(--margin-bottom-40);
+  margin-bottom: var(--margin-bottom-40);
 }
 
 .hero-img {
-    position: absolute;
-    margin-left: 456px;
+  position: absolute;
+  margin-left: 456px;
 }
