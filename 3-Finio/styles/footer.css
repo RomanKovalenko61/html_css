@@ -1,66 +1,61 @@
 footer {
-    background-color: rgb(26, 29, 37);
-    padding-top: 80px;
-    padding-bottom: 32px;
-    color: rgba(255, 255, 255, 0.5);
-    font-family: Inter;
-    font-size: 17px;
-    font-weight: 500;
-    line-height: 140%;
+  background-color: var(--bg-footer);
+  padding-top: 80px;
+  padding-bottom: 32px;
+  color: var(--color-footer-text-white-opacity-5);
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
-.finio {
-    color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-size: 36px;
-    font-weight: 900;
-    line-height: 140%;
-    letter-spacing: 0%;
-    text-align: left;
-    text-transform: uppercase;
-    margin-bottom: 16px;
-}
-
-.footer-wrapper {
-    max-width: var(--width-layout);
-    margin: 0 auto;
+.finio-feacher {
+  color: var(--color-footer-text-white-opacity-7);
 }
 
 .footer-columns {
-    display: grid;
-    grid-template-columns: 29% 24% 28% 19%;
-    margin-bottom: 40px;
+  display: flex;
+  gap: 124px;
+  margin-bottom: 40px;
+}
+
+.column1 {
+  min-width: 283px;
+}
+
+.column3 {
+  margin-right: 28px;
+}
+
+.column4 {
+  color: var(--color-footer-text-white-opacity-7);
+}
+
+.email {
+  color: var(--color-footer-text-white-opacity-5);
 }
 
 .flex-columns {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .footer-info {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
-    padding-top: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 32px;
 }
 
 .footer-info__left {
-    color: rgba(255, 255, 255, 0.7);
-    font-family: Inter;
-    font-size: 17px;
-    font-weight: 500;
-    line-height: 140%;
+  color: var(--color-footer-text-white-opacity-7);
 }
 
 .footer-info__right {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
 }

@@ -4,6 +4,8 @@
   --color-text-dark: rgb(78, 93, 124);
   --color-text-white: rgb(255, 255, 255);
   --color-text-white-opacity: rgba(255, 255, 255, 0.6);
+  --color-footer-text-white-opacity-5: rgba(255, 255, 255, 0.5);
+  --color-footer-text-white-opacity-7: rgba(255, 255, 255, 0.7);
   --color-text-blue: rgb(53, 126, 254);
 
   --color-card-shadow-16: rgba(78, 93, 124, 0.16);
@@ -11,6 +13,7 @@
 
   --bg-block-white: rgb(255, 255, 255);
   --bg-block-blue: rgb(53, 126, 254);
+  --bg-footer: rgb(26, 29, 37);
 
   --bg-color-benefit: rgb(26, 188, 156);
   --bg-golden-block: rgb(255, 199, 54);

@@ -5,3 +5,15 @@
 .margin_bottom_16 {
   margin-top: var(--margin-bottom-16);
 }
+
+.margin_bottom_8 {
+  margin-bottom: var(--margin-bottom-8);
+}
+
+.finio {
+  color: var(--color-text-white);
+  font-size: 36px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 140%;
+}
